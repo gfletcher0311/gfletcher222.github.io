@@ -1,0 +1,153 @@
+body {
+	background: rgb(13,113,148);
+	background: linear-gradient(90deg, rgba(13,113,148,1) 0%, rgba(125,125,125) 100%);
+	margin:0px;
+	padding:0px;
+}
+
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+th, td {
+
+	border-style: groove hidden groove hidden;
+	padding: 10px;
+	border-width: 10px;
+	border-color: #7f948d;
+	font-size: 32px;
+}
+
+table {
+	margin: -55px;
+	border-collapse: separate;
+	border-spacing: 1cm;
+	
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+a{
+	color:rgb(0,0,0);
+}
+
+#wrapper {
+	margin-left:auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 12px 12px 2px 1px #3A342B;
+	background-color: #667B7C;
+
+}
+#content {
+	background-color: #7f6e8d;
+	padding: 30px;
+	min-height: 500px
+	
+}
+footer {
+	text-align: center;
+	background-color: #6e8b8d;
+	border-color: black;
+}
+
+img {
+	max-width: 30%;
+	height: auto;
+}
+
+.floatImg {
+	float: right;
+	margin: -160px -20px;
+}
+p#fontColor {
+	font-size: 32px;
+	color: white;
+
+}
+#p2 {
+	float:right;
+	font-size: 20px;
+	color: white;
+}
+
+#RITbutton {
+	transition-duration: 0.5s;
+	padding: 14px 0px;
+	width: 150px;
+	height: auto;
+	border-radius: 12px;
+
+}
+#RITbutton:hover {
+	background-color: rgb(247 105 2);
+	color: white;
+	border: 2px solid hidden;
+}
+
+#youtubeButton {
+	transition-duration: 0.5s;
+	padding: 20px 0px;
+	width:150px;
+	height: 150px;
+	border-radius:12px;
+	background-color: #FF0000;
+	color: white;
+	border-color: orange;
+	font-size: 20px;
+
+}
+#youtubeButton:hover {
+	background-color: #282828;
+	color: white;
+	font-size: 25px;
+}
+
+#geniusButton {
+	display: block;
+	position: relative;
+	padding: 1.5em 3em;
+	appearance: none;
+	border-color: #e55743;
+	background:transparent;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	outline: none;
+	font-weight: bold;
+	border-radius: 0;
+	transition: 0.5s;
+}
+#geniusButton:hover {
+	background: rgba(100, 0, 0, 0.5);
+	color: #e55743;
+}
+
+
+#youtubeButton, #geniusButton {
+	display: inline-block;
+	margin-right: 50px;
+	margin-left: 250px;
+	text-align: center;
+}
+.divider {
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ol {
+	list-style-type: lower-alpha;
+	font-size: 32px;
+	color: darkred;
+	border-width: 7px;
+	border-style: hidden hidden hidden solid;
+	border-color: black;
+	background: grey;
+	
+}
